@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(188, 133, 239);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+video {
+    width: 100%;
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+}
+
+canvas {
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blanchedalmond;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.album img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    object-fit: cover;
+    border-radius: 5px;
+}
